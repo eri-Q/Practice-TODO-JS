@@ -77,7 +77,7 @@ const createIncompleteList = (text) => {
   div.appendChild(completeButton);
   div.appendChild(deleteButton);
 
-  // 未完了のリストに追加
+  //  未完了のリストに追加
   document.getElementById("incomplete-list").appendChild(div);
 };
 
